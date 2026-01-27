@@ -18,3 +18,5 @@ If using our work please cite: https://ieeexplore.ieee.org/document/10562181
   pages={110-121},
   keywords={Training;Adaptation models;Navigation;Computational modeling;Atmospheric modeling;Neural networks;Dynamic scheduling;Autonomous Systems;Dynamic Neural Networks;Drone Navigation;Sensor Fusion},
   doi={10.1109/IoTDI61053.2024.00014}}
+
+licensed under the Attribution-NonCommercial 4.0 International license: https://creativecommons.org/licenses/by-nc/4.0/legalcode.en
