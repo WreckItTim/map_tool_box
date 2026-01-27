@@ -1,0 +1,3 @@
+(see more details in given .py file)
+
+alpha = 2D forward motion with yaw rotations at z=4, forward depth map with relative position w.r.t. target, remember past 3 observations, 

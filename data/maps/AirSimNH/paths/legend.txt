@@ -1,0 +1,3 @@
+(see more technical details in find_paths.py file in sub directories)
+
+version_1 = DPad heuristic using map bounds [-240, 240] with z=4 and only 2d motion with [2, 4, 8, 16, 32] meter action choices
