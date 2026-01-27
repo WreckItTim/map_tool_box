@@ -44,7 +44,7 @@ def get_quick_path(start_point, target_point, map_name='AirSimNH', start_directi
 def read_curriculum(map_name, astar_version, set_name, n_paths=None, difficulties=None):
     curriculum_dir = Path(DATA_DIR, 'maps', map_name, 'paths', astar_version, 'curriculum')
     # read astar from old repo format
-    if astar_version in ['old']:
+    if astar_version in ['old', 'experimental']:
         paths_dict = {}
         for difficulty in difficulties:
             paths_dict[difficulty] = []

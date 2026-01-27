@@ -24,7 +24,7 @@ class CurricululmTrain(Spawner):
         # NOTE: key order must be sorted from lowest to highest difficulty
     # samples a path at given difficulty
     # lower_difficulty_proba is probability to sample from a lower difficulty
-    def __init__(self, paths_dict, lower_difficulty_proba=0.5):
+    def __init__(self, paths_dict, lower_difficulty_proba=0.3):
         self.paths_dict = paths_dict
         self.lower_difficulty_proba = lower_difficulty_proba
         self.difficulties = list(paths_dict.keys())

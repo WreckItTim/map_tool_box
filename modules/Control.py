@@ -34,6 +34,8 @@ def play_episode(environment, model, save_additional_state_info=False, save_obse
             observations, terminate, state = returned_values
         if len(returned_values) == 4:
             observations, reward, terminate, state = returned_values
+        if len(returned_values) == 5:
+            observations, reward, terminate, truncate, state = returned_values
         state['action_value'] = action_value
 
         # log state variables
