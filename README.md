@@ -2,10 +2,10 @@ SETUP:
 
 set an environment variable to point to the parent directory that you installed this repostiory in
 
-Download any needed releases (data or models) from the public Dropbox: 
-https://www.dropbox.com/scl/fo/vg3t52glaj0yqk9njlc4d/AB17lboB6pdP84wh-tt7OkI?rlkey=ra6u86nrj28kea1dh84emw6hy&st=vagz7xrp&dl=0
-
 run one of the Jupyter notebooks to showcase different functionality 
+
+Some of these notebookw will require you to download any needed releases (data or models) from the public Dropbox, and place them following the same file architecture (just drag and drop files from Dropbox into the map_tool_box directory and unzip any large data files as needed.
+https://www.dropbox.com/scl/fo/vg3t52glaj0yqk9njlc4d/AB17lboB6pdP84wh-tt7OkI?rlkey=ra6u86nrj28kea1dh84emw6hy&st=vagz7xrp&dl=0
 
 If using our work please cite: https://ieeexplore.ieee.org/document/10562181
 
