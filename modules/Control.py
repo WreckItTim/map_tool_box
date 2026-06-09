@@ -54,14 +54,14 @@ def play_episode(environment, model, save_observations=False, save_qvalues=False
 
 # step through several episodes with environment and model
 # calculates navigation accuracy
-def eval(environment, model, write_path=None, save_observations=False, print_freq=10,
+def eval(environment, model, write_path=None, save_observations=False, print_freq=10, overwrite=True,
          ckpt_freq=10, goal_threshold=4, output_progress=False, start_path_idx=None, end_path_idx=None, save_qvalues=False):
 
     # reset spawner -- sets any vars as needed to check if there are more paths to evaluate
     environment.spawner.reset()
 
     # keep playing a new episode while spawner has more paths to evaluate on
-    if write_path is not None and os.path.exists(write_path):
+    if write_path is not None and os.path.exists(write_path) and not overwrite:
         episodes = Utils.pickle_read(write_path)
         accuracy = 100*np.mean([states[-1]['end'] in SUCCESS_REASONS for states in episodes])
         if output_progress:
